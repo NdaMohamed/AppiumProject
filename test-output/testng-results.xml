@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-23T15:02:52 EET" name="Default suite" finished-at="2023-07-23T15:03:36 EET" duration-ms="43820">
+    <groups>
+    </groups>
+    <test started-at="2023-07-23T15:02:52 EET" name="Default test" finished-at="2023-07-23T15:03:36 EET" duration-ms="43820">
+      <class name="Tests.LoginTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Tests.LoginTest@3b69e7d1]" started-at="2023-07-23T15:02:52 EET" name="Setup" finished-at="2023-07-23T15:03:02 EET" duration-ms="9146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="CheckLeaveinputsEmpty()[pri:1, instance:Tests.LoginTest@3b69e7d1]" started-at="2023-07-23T15:03:02 EET" name="CheckLeaveinputsEmpty" finished-at="2023-07-23T15:03:05 EET" duration-ms="3273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLeaveinputsEmpty -->
+        <test-method signature="CheckLeaveUserNameEmpty()[pri:2, instance:Tests.LoginTest@3b69e7d1]" started-at="2023-07-23T15:03:05 EET" name="CheckLeaveUserNameEmpty" finished-at="2023-07-23T15:03:11 EET" duration-ms="5897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLeaveUserNameEmpty -->
+        <test-method signature="CheckLeavePasswordEmpty()[pri:3, instance:Tests.LoginTest@3b69e7d1]" started-at="2023-07-23T15:03:11 EET" name="CheckLeavePasswordEmpty" finished-at="2023-07-23T15:03:17 EET" duration-ms="6494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLeavePasswordEmpty -->
+        <test-method signature="CheckInvalidUserName()[pri:4, instance:Tests.LoginTest@3b69e7d1]" started-at="2023-07-23T15:03:17 EET" name="CheckInvalidUserName" finished-at="2023-07-23T15:03:22 EET" duration-ms="5168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckInvalidUserName -->
+        <test-method signature="CheckInvalidPassword()[pri:5, instance:Tests.LoginTest@3b69e7d1]" started-at="2023-07-23T15:03:22 EET" name="CheckInvalidPassword" finished-at="2023-07-23T15:03:28 EET" duration-ms="5871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckInvalidPassword -->
+        <test-method signature="CheckSuccessLogin()[pri:6, instance:Tests.LoginTest@3b69e7d1]" started-at="2023-07-23T15:03:28 EET" name="CheckSuccessLogin" finished-at="2023-07-23T15:03:36 EET" duration-ms="7936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSuccessLogin -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
