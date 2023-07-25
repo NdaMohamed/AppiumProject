@@ -25,4 +25,9 @@ you can see in the project explorer 2 packages:
           Test cases: cover a positive and a negative scenario with assert every test cases.
 
  ## Report
- to open report after test cases execution --> open test-output file --> open index.html file, it willopen report in a new browser.
+ prerequisite:
+
+Download Allure binaries(zip) and set the Path
+to run report run all tests from testng.xml file first then Report 1 (allure report): open allureresult folder in system explorer --> run cmd command"allure serve", it will display allure report in a new broswer.
+
+Report 2 (Extent report): open test-output folder and click on index.html, it will display allure report in a new broswer.
