@@ -21,3 +21,6 @@ you can see in the project explorer 2 packages:
       - BaseTest class that conatins setup methods (before & after tests). 
       - logintest class that contains all test cases based on loginPage implementation.
           Test cases: cover a positive and a negative scenario with assert every test cases.
+
+ ## Report
+ 
