@@ -5,11 +5,13 @@ This project designed using framework: selenium and POM.
 1) App Name: “Android.SauceLabs.Mobile.Sample.app.2.7.1.apk”
 2) APK link: https://github.com/saucelabs/sample-appmobile/releases/download/2.7.1/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
 
+
 ## Run 
 Device: Android
 1) Connect mobile and pc using cable
 2) enable USB debugging from settings
-3) Open LoginTest class --> click on Run All
+3) run appium server on your pc
+4) Open LoginTest class --> click on Run All or from testng.xml file
 
 ## Description 
 you can see in the project explorer 2 packages:
@@ -23,4 +25,4 @@ you can see in the project explorer 2 packages:
           Test cases: cover a positive and a negative scenario with assert every test cases.
 
  ## Report
- 
+ to open report after test cases execution --> open test-output file --> open index.html file, it willopen report in a new browser.
